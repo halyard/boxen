@@ -87,7 +87,7 @@ class Boxen::Preflight::Creds < Boxen::Preflight
 
     auth = tmp_api.create_authorization(
       :note => note,
-      :scopes => %w(repo user),
+      :scopes => %w(repo user admin:public_key),
       :fingerprint => fingerprint,
       :headers => headers
     )
