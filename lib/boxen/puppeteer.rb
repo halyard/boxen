@@ -67,6 +67,7 @@ module Boxen
       if config.profile?
         flags << "--evaltrace"
         flags << "--summarize"
+        flags << "--verbose"
       end
 
       if config.future_parser?
