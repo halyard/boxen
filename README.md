@@ -1,6 +1,21 @@
-# Boxen [![Build Status](https://travis-ci.org/boxen/boxen.png?branch=master)](https://travis-ci.org/boxen/boxen)
+boxen
+==========
+
+[![Gem Version](https://img.shields.io/gem/v/boxen.svg)](https://rubygems.org/gems/boxen)
+[![Dependency Status](https://img.shields.io/gemnasium/halyard/boxen.svg)](https://gemnasium.com/halyard/boxen)
+[![Build Status](https://img.shields.io/circleci/project/halyard/boxen.svg)](https://circleci.com/gh/halyard/boxen)
+[![Coverage Status](https://img.shields.io/codecov/c/github/halyard/boxen.svg)](https://codecov.io/github/halyard/boxen)
+[![Code Quality](https://img.shields.io/codacy/5e5249869fbb4e91acc69f53d8dd7da5.svg)](https://www.codacy.com/app/halyard/boxen)
+[![MIT Licensed](https://img.shields.io/badge/license-MIT-green.svg)](https://tldrlegal.com/license/mit-license
 
 Manage Mac development boxes with love (and Puppet).
+
+## Changes from upstream
+
+* Switched to CircleCI builds
+* Update dependency versions, specifically targeting Puppet 4
+* Create a GitHub token with admin:public_key access
+* Add the verbose flag if run with debug enabled
 
 ## Rules for Services
 
