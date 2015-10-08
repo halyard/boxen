@@ -22,7 +22,9 @@ Gem::Specification.new do |gem|
   gem.add_dependency 'octokit',          '~> 4.1.0'
   gem.add_dependency 'puppet',           '~> 4.2.0'
 
-  gem.add_development_dependency 'minitest', '~> 5.8.0'
-  gem.add_development_dependency 'mocha',    '~> 1.1.0'
+  gem.add_development_dependency 'rubocop', '~> 0.34.0'
+  gem.add_development_dependency 'rake', '~> 10.4.0'
   gem.add_development_dependency 'codecov', '~> 0.1.1'
+  gem.add_development_dependency 'rspec', '~> 3.3.0'
+  gem.add_development_dependency 'fuubar', '~> 2.0.0'
 end
