@@ -4,7 +4,7 @@ boxen
 [![Dependency Status](https://img.shields.io/gemnasium/halyard/boxen.svg)](https://gemnasium.com/halyard/boxen)
 [![Build Status](https://img.shields.io/circleci/project/halyard/boxen.svg)](https://circleci.com/gh/halyard/boxen)
 [![Coverage Status](https://img.shields.io/codecov/c/github/halyard/boxen.svg)](https://codecov.io/github/halyard/boxen)
-[![Code Quality](https://img.shields.io/codacy/51f97f9fdf8b45caa259ccbfa132164e.svg)](https://www.codacy.com/app/halyard/boxen)
+[![Code Quality](https://img.shields.io/codacy/51f97f9fdf8b45caa259ccbfa132164e.svg)](https://www.codacy.com/app/akerl/boxen)
 [![MIT Licensed](https://img.shields.io/badge/license-MIT-green.svg)](https://tldrlegal.com/license/mit-license)
 
 Manage Mac development boxes with love (and Puppet).
