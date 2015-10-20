@@ -1,7 +1,6 @@
 boxen
 ==========
 
-[![Gem Version](https://img.shields.io/gem/v/boxen.svg)](https://rubygems.org/gems/boxen)
 [![Dependency Status](https://img.shields.io/gemnasium/halyard/boxen.svg)](https://gemnasium.com/halyard/boxen)
 [![Build Status](https://img.shields.io/circleci/project/halyard/boxen.svg)](https://circleci.com/gh/halyard/boxen)
 [![Coverage Status](https://img.shields.io/codecov/c/github/halyard/boxen.svg)](https://codecov.io/github/halyard/boxen)
