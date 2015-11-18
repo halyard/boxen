@@ -15,12 +15,12 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep /^test/
   gem.require_paths = ["lib"]
 
-  gem.add_dependency 'ansi',             '~> 1.5.0'
-  gem.add_dependency 'highline',         '~> 1.7.0'
-  gem.add_dependency 'json_pure',        '~> 1.8.0'
+  gem.add_dependency 'ansi', '~> 1.5.0'
+  gem.add_dependency 'highline', '~> 1.7.0'
+  gem.add_dependency 'json_pure', '~> 1.8.0'
   gem.add_dependency 'librarian-puppet', '~> 2.2.0'
-  gem.add_dependency 'octokit',          '~> 4.2.0'
-  gem.add_dependency 'puppet',           '~> 4.2.0'
+  gem.add_dependency 'octokit', '~> 4.2.0'
+  gem.add_dependency 'puppet', '~> 4.2.0'
 
   gem.add_development_dependency 'rubocop', '~> 0.35.0'
   gem.add_development_dependency 'rake', '~> 10.4.0'
