@@ -25,7 +25,7 @@ module Boxen
           end
         end
 
-        keychain        = Boxen::Keychain.new config.login
+        keychain        = Boxen::Keychain.new config.login, config.user
         config.token    = keychain.token
 
         if config.enterprise?
@@ -69,7 +69,7 @@ module Boxen
         f.write JSON.generate Hash[attrs.reject { |k, v| v.nil? }]
       end
 
-      keychain          = Boxen::Keychain.new config.login
+      keychain          = Boxen::Keychain.new config.login, config.user
       keychain.token    = config.token
 
       config
