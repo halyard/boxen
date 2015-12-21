@@ -36,7 +36,9 @@ module Boxen
     attr_reader :login
 
     def get(service)
-      cmd = shellescape('sudo', '-u', @local_user, HELPER, service, login)
+      cmd = shellescape(
+        '/usr/bin/sudo', '-u', @local_user, HELPER, service, login
+      )
 
       result = `#{cmd}`.strip
       $?.success? ? result : nil
@@ -44,7 +46,7 @@ module Boxen
 
     def set(service, token)
       cmd = shellescape(
-        'sudo', '-u', @local_user, HELPER, service, login, token
+        '/usr/bin/sudo', '-u', @local_user, HELPER, service, login, token
       )
 
       unless system *cmd
