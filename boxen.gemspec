@@ -2,13 +2,13 @@
 #
 
 Gem::Specification.new do |gem|
-  gem.name          = "boxen"
+  gem.name          = "boxen-halyard"
   gem.version       = "2.8.0.akerl9"
   gem.authors       = ["John Barnette", "Will Farrington", "David Goodlad", "Mike McQuaid"]
   gem.email         = ["jbarnette@github.com", "wfarr@github.com", "dgoodlad@github.com", "mikemcquaid@github.com"]
   gem.description   = "Manage Mac development boxes with love (and Puppet)."
   gem.summary       = "You know, for laptops and stuff."
-  gem.homepage      = "https://github.com/boxen/boxen"
+  gem.homepage      = "https://github.com/halyard/boxen"
   gem.license       = 'MIT'
 
   gem.files         = `git ls-files`.split $/
