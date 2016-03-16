@@ -20,7 +20,7 @@ Gem::Specification.new do |gem|
   gem.add_dependency 'json_pure', '~> 1.8.0'
   gem.add_dependency 'librarian-puppet', '~> 2.2.0'
   gem.add_dependency 'octokit', '~> 4.3.0'
-  gem.add_dependency 'puppet', '~> 4.3.0'
+  gem.add_dependency 'puppet', '~> 4.4.0'
 
   gem.add_development_dependency 'rubocop', '~> 0.38.0'
   gem.add_development_dependency 'rake', '~> 11.1.0'
