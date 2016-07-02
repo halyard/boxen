@@ -17,7 +17,7 @@ Gem::Specification.new do |gem|
 
   gem.add_dependency 'ansi', '~> 1.5.0'
   gem.add_dependency 'highline', '~> 1.7.0'
-  gem.add_dependency 'json_pure', '~> 1.8.0'
+  gem.add_dependency 'json_pure', '~> 2.0.1'
   gem.add_dependency 'librarian-puppet', '~> 2.2.0'
   gem.add_dependency 'octokit', '~> 4.3.0'
   gem.add_dependency 'puppet', '~> 4.5.0'
