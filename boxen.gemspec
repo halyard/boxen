@@ -22,7 +22,7 @@ Gem::Specification.new do |gem|
   gem.add_dependency 'puppet', '~> 4.6.0'
 
   gem.add_development_dependency 'rubocop', '~> 0.42.0'
-  gem.add_development_dependency 'rake', '~> 11.2.0'
+  gem.add_development_dependency 'rake', '~> 11.3.0'
   gem.add_development_dependency 'codecov', '~> 0.1.1'
   gem.add_development_dependency 'rspec', '~> 3.5.0'
   gem.add_development_dependency 'fuubar', '~> 2.2.0'
