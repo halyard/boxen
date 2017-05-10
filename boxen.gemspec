@@ -24,6 +24,6 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency 'rubocop', '~> 0.48.0'
   gem.add_development_dependency 'rake', '~> 12.0.0'
   gem.add_development_dependency 'codecov', '~> 0.1.1'
-  gem.add_development_dependency 'rspec', '~> 3.5.0'
+  gem.add_development_dependency 'rspec', '~> 3.6.0'
   gem.add_development_dependency 'fuubar', '~> 2.2.0'
 end
