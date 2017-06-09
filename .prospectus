@@ -4,15 +4,17 @@ item do
   noop
 
   deps do
-    name 'gems'
-    expected do
-      static
-      set 'green'
-    end
+    item do
+      name 'gems'
+      expected do
+        static
+        set 'green'
+      end
 
-    actual do
-      gemnasium
-      slug 'halyard/boxen'
+      actual do
+        gemnasium
+        slug 'halyard/boxen'
+      end
     end
   end
 
