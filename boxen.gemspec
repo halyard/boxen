@@ -21,7 +21,7 @@ Gem::Specification.new do |gem|
   gem.add_dependency 'octokit', '~> 4.7.0'
   gem.add_dependency 'puppet', '~> 5.2.0'
 
-  gem.add_development_dependency 'rubocop', '~> 0.49.0'
+  gem.add_development_dependency 'rubocop', '~> 0.50.0'
   gem.add_development_dependency 'rake', '~> 12.1.0'
   gem.add_development_dependency 'codecov', '~> 0.1.1'
   gem.add_development_dependency 'rspec', '~> 3.6.0'
