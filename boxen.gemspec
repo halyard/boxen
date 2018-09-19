@@ -19,7 +19,7 @@ Gem::Specification.new do |gem|
   gem.add_dependency 'highline', '~> 1.7.0'
   gem.add_dependency 'librarian-puppet', '~> 3.0.0'
   gem.add_dependency 'octokit', '~> 4.12.0'
-  gem.add_dependency 'puppet', '~> 5.5.0'
+  gem.add_dependency 'puppet', '~> 6.0.0'
 
   gem.add_development_dependency 'rubocop', '~> 0.59.0'
   gem.add_development_dependency 'rake', '~> 12.3.0'
