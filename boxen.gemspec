@@ -25,5 +25,5 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency 'rake', '~> 13.0.0'
   gem.add_development_dependency 'codecov', '~> 0.1.1'
   gem.add_development_dependency 'rspec', '~> 3.9.0'
-  gem.add_development_dependency 'fuubar', '~> 2.4.1'
+  gem.add_development_dependency 'fuubar', '~> 2.5.0'
 end
